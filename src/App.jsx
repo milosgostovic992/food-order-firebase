@@ -22,10 +22,6 @@ function App() {
       <Cart/>
         <Header/>
         <Home/>
-        <Routes>
-          <Route path="/" element={<Login/>}/>
-        </Routes>
-        
     </UserProgressContextProvider>
       </LoginContextProvider>
     </CartContextProvider>
